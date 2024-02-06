@@ -1,0 +1,70 @@
+/*------------
+    RESET
+-------------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------
+    GENERAL
+-------------*/
+header{
+    background-color: #FD6900;
+    color: white;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 100px;
+}
+
+.col-33{
+    width: calc(100% / 3);
+    padding: 10px;
+    position: relative;
+}
+
+.icons{
+    text-align: end;
+}
+
+.discount{
+    position: absolute;
+    bottom: 40px;
+}
+
+span{
+    color: white;
+    font-size: small;
+    padding: 5px;
+}
+
+span:last-child{
+    background-color: green;
+}
+
+span:first-child{
+    background-color: red;
+}
+
+.img{
+    max-width: 380px;
+}
+
+.img-b{
+    display: none;
+}
+
+
+
