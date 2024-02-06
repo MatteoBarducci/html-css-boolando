@@ -14,6 +14,7 @@ header{
     color: white;
     padding: 10px;
     margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .container{
@@ -26,13 +27,16 @@ header{
 
 .logo{
     height: 30px;
-    margin-left: 100px;
 }
 
 .col-33{
     width: calc(100% / 3);
     padding: 10px;
     position: relative;
+}
+
+.col-special{
+    width: 50%;
 }
 
 .icons{
@@ -58,11 +62,19 @@ span:first-child{
     background-color: red;
 }
 
-.img{
+.img, .img-b{
     max-width: 380px;
 }
 
 .img-b{
+    display: none;
+}
+
+section:hover .img-b{
+    display: block;
+}
+
+section:hover .img{
     display: none;
 }
 
