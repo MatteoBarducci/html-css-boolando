@@ -25,6 +25,10 @@ header{
     margin: auto;
 }
 
+main > div:first-child{
+    margin-bottom: 50px;
+}
+
 .logo{
     height: 30px;
 }
@@ -45,7 +49,7 @@ header{
 
 .discount{
     position: absolute;
-    bottom: 40px;
+    bottom: 130px;
 }
 
 span{
@@ -54,16 +58,17 @@ span{
     padding: 5px;
 }
 
-span:last-child{
+div > span:last-child{
     background-color: green;
 }
 
-span:first-child{
+div > span:first-child{
     background-color: red;
 }
 
 .img, .img-b{
     max-width: 380px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .img-b{
@@ -77,6 +82,19 @@ section:hover .img-b{
 section:hover .img{
     display: none;
 }
+
+figcaption > *{
+    color: black;
+}
+
+.price{
+    color: red;
+}
+
+.previous-price{
+    text-decoration: line-through;
+}
+
 
 
 
