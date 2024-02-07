@@ -76,7 +76,7 @@ div > span:first-child{
 }
 
 section:hover .img-b{
-    display: block;
+    display: inline-block;
 }
 
 section:hover .img{
