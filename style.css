@@ -15,6 +15,9 @@ header{
     padding: 10px;
     margin-bottom: 50px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 .container{
