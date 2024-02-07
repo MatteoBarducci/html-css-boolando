@@ -47,6 +47,10 @@ main > div:first-child{
     text-align: end;
 }
 
+.icons > *{
+    padding-left: 8px;
+}
+
 .discount{
     position: absolute;
     bottom: 130px;
